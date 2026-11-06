@@ -1,0 +1,11 @@
+# Language detection rules
+# Exclude build artifacts
+# Text file normalization
+public/index.html linguist-vendored
+*.min.js linguist-generated
+build/* linguist-vendored
+*.tsx linguist-detectable
+*.svg text
+public/** linguist-vendored
+src/*.ts linguist-detectable
+*.min.css linguist-generated
